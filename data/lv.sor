@@ -17,10 +17,16 @@
 16 sešpadsmit
 17 septiņpadsmit
 18 astoņpadsmit
-19 deniņpadsmit
+19 deviņpadsmit
 ([2])(\d) divdesmit[ $2]
-([23456789])(\d) $1|desmit[ $2]
-1(\d\d) simts[ $1]
+([3])(\d) trīsdesmit[ $2]
+([4])(\d) četrdesmit[ $2]
+([5])(\d) piecdesmit[ $2]
+([6])(\d) sešdesmit[ $2]
+([7])(\d) septiņdesmit[ $2]
+([8])(\d) astoņdesmit[ $2]
+([9])(\d) deviņdesmit[ $2]
+1(\d\d) viens simts[ $1]
 (\d)(\d\d) $1 simti[ $2]
 1(\d{3}) viens tūkstotis[ $1]
 (\d{1,3})(\d{3}) $1 tūkstoši[ $2]
